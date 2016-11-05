@@ -1,0 +1,58 @@
+Comparsion Symbols
+	== comparison
+	!= not equal
+	> greater than
+	< less than
+	>= greater than or equal to
+	<= less than or equal to
+	= set something to that value
+
+Operator symbols
+	** to the power of
+	+ adds two values
+	* multiples two values
+	/ divides two values
+	// drops decimals (truncate)
+	% remainder of two values (modulo) (modulo arithmatic)
+
+Logic Symbols
+	and both conditions must be true
+	or either condition can be true but tests 1st value 1st
+	not takes one condition and flips it 
+
+print ("") -> prints out whatever is in a quote
+
+x = [#, #, #] -> Starts a list, Lists start from 0
+x = [#] -> indexing / recalls from list/ takes the #th item from the list
+x.append() -> Adds values to x = []
+
+0 acts like false
+None acts like false
+Empty Lists acts like false
+
+
+continue: go to the top of the loop
+
+If statements check if something is true or false
+if <expression>:
+	if true things
+elif #:
+	if true things
+else:
+	if none of the above
+
+for # in  list of things : 
+	do stuff
+
+while <expression>:
+	do until expression is false
+
+print("".__doc__) -> built in help like help()
+
+import -> brings in modules (libraries of code you can use in your own programs)
+	sys.stdin -> default module
+sys.stdin.readline() -> read a single line of input
+<string>.strip() -> remove the extra space or enter after a line (on the ends)
+
+try & except ErrorType: -> try doing this if there's an error go to except
+
